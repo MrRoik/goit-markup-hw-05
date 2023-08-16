@@ -138,10 +138,51 @@ footer {
     margin-bottom: 16px;
 }
 .footer-social {
-    padding-left: 120px;
+    padding-left: 0;
+    padding-right: 80px;
 }
 .footer .social-links {
     gap: 16px;
+}
+.footer-send {
+    padding-left: 0;
+}
+.footer-form {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.button-icon {
+    fill: var(--primary-white-color);
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+}
+.form-input {
+    width: 264px;
+        height: 40px;
+        flex-shrink: 0;
+        padding: 8px 16px;
+border-radius: 4px;
+outline: transparent;
+background-color: transparent;
+    border: 1px solid var(--primary-white-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.footer-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 24px;
+    border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-button:hover,
+.footer-button:focus {
+    background-color: var(--secondary-blue-color);
+    opacity: 0.8;
 }
 
 .main {
@@ -185,6 +226,7 @@ footer {
     font-weight: 500;
     cursor: pointer;
     letter-spacing: 0.04em;
+    border: 1px solid transparent;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
