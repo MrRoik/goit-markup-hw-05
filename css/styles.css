@@ -753,6 +753,8 @@ img {
 
 .modal-form-input:focus {
     border-color: var(--social-blue-normal);
+}
+.modal-form-input:focus + .modal-form-icon {
     fill: var(--social-blue-normal);
 }
 
@@ -805,7 +807,9 @@ img {
     margin-bottom: 24px;
 }
 
-.modal-form-checkbox {}
+.modal-form-checkbox {
+
+}
 
 .modal-form-desc {
     width: 16px;
@@ -821,7 +825,7 @@ img {
 }
 .modal-form-checkbox:checked + .modal-form-ppolicy>.modal-form-desc {
     background-color: var(--secondary-blue-color);
-    border:none;
+    border: none;
     fill: var(--social-icon-white);
 }
 .modal-form-button {
